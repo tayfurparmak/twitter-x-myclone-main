@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import {numberFormat} from "~/utils/formats";
 import {Popover} from "@headlessui/react";
 
-export default function Topic({item}) {
+export default function Topic(item) {
 	return (
 		<Link
 			to="/"
